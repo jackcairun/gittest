@@ -26,6 +26,7 @@ public class UserController {
 	public User inserUser(User user) {
 		User save = userRepository.save(user);
 		System.out.println("更新1");
+		System.out.println("更新2");
 		return save;
 	}
 
