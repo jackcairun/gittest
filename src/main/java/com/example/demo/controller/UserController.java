@@ -25,6 +25,7 @@ public class UserController {
 	@GetMapping("/user")
 	public User inserUser(User user) {
 		User save = userRepository.save(user);
+		System.out.println("更新1");
 		return save;
 	}
 
